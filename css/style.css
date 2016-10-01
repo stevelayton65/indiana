@@ -1,0 +1,91 @@
+html {
+	background-color: peachpuff;
+	text-align: center;
+}
+
+
+h1 {	
+	font-size: 4em;
+	text-align: center;
+	color: red;
+	text-transform: uppercase;
+	font-family: avenir, sans-serif;
+	margin-top: 50px;
+	position: relative;
+}
+
+h1.prof a {
+	color: red;
+	text-decoration: none;
+	position: relative;
+}
+
+h1.prof a:hover {
+	color: white;
+	transition: linear 5s;
+	left: 10px;
+	top: 10px;
+	text-shadow: 3px 3px 3px red;
+}
+
+h1#steve a {
+	color: orange;
+}
+
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+i#cog, i.fa {
+	color: red;
+	text-align: center;
+	width: 100%;
+}
+
+i:hover {
+	color: blue;
+}
+
+h2 {
+	font-size: 6em;
+	line-height: .2em;
+}
+
+.buttons button {
+	margin-top: 1em;
+	width: 2em;
+	height: 2em;
+	font-size: 4em;
+	border-radius: 2em;
+	font-weight:bold;
+	color: blue;
+	border: 12px solid blue;
+	background: none;
+}
+
+.buttons button:hover {
+	color: purple;
+	background-color: rgba(255,255,255,0.25);
+	border-color: purple;
+	width: 3.2em;
+	height:3.2em;
+	transition: linear 0.5s;
+}
+
+.buttons button:active {
+	color: red;
+	background-color: rgba(255,255,255,0.5);
+	border-color:red;
+	transition: none;
+}
+
+.buttons button:focus {
+	outline: none;
+}
+
+.murray {
+	height: 324px;
+	overflow: hidden;
+}
